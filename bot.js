@@ -15,7 +15,7 @@ function createBot() {
         host: 'tevhikileri.aternos.me', // Buraya kendi Aternos IP'nizi yazın (örn: deneme.aternos.me)
         port: 25565,                     
         username: 'TevhikİleriAFK',      
-        version: '26.3'                  
+        version: '26.2'                  
     });
 
     bot.on('spawn', () => {
