@@ -12,10 +12,10 @@ server.listen(10000, '0.0.0.0', () => {
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'IP_ADRESINIZ.aternos.me', // Buraya kendi Aternos IP'nizi yazın (örn: deneme.aternos.me)
+        host: 'tevhikileri.aternos.me', // Buraya kendi Aternos IP'nizi yazın (örn: deneme.aternos.me)
         port: 25565,                     
-        username: 'AternosBekcisi',      
-        version: '26.2'                  
+        username: 'TevhikİleriAFK',      
+        version: '26.3'                  
     });
 
     bot.on('spawn', () => {
